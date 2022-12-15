@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		89B18351294138260080E1AF /* bookingpageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B18350294138260080E1AF /* bookingpageApp.swift */; };
-		89B18353294138260080E1AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B18352294138260080E1AF /* ContentView.swift */; };
+		89B18353294138260080E1AF /* bookingview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B18352294138260080E1AF /* bookingview.swift */; };
 		89B18355294138270080E1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B18354294138270080E1AF /* Assets.xcassets */; };
 		89B18358294138270080E1AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B18357294138270080E1AF /* Preview Assets.xcassets */; };
 		89B18362294138270080E1AF /* bookingpageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B18361294138270080E1AF /* bookingpageTests.swift */; };
 		89B1836C294138270080E1AF /* bookingpageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B1836B294138270080E1AF /* bookingpageUITests.swift */; };
 		89B1836E294138270080E1AF /* bookingpageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B1836D294138270080E1AF /* bookingpageUITestsLaunchTests.swift */; };
+		89B1837C294219640080E1AF /* iPages in Frameworks */ = {isa = PBXBuildFile; productRef = 89B1837B294219640080E1AF /* iPages */; };
+		89B183822942A4040080E1AF /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B183812942A4040080E1AF /* infoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		89B1834D294138260080E1AF /* bookingpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookingpage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B18350294138260080E1AF /* bookingpageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingpageApp.swift; sourceTree = "<group>"; };
-		89B18352294138260080E1AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89B18352294138260080E1AF /* bookingview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingview.swift; sourceTree = "<group>"; tabWidth = 5; };
 		89B18354294138270080E1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B18357294138270080E1AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89B1835D294138270080E1AF /* bookingpageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookingpageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		89B18367294138270080E1AF /* bookingpageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookingpageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B1836B294138270080E1AF /* bookingpageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingpageUITests.swift; sourceTree = "<group>"; };
 		89B1836D294138270080E1AF /* bookingpageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingpageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89B183812942A4040080E1AF /* infoView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; tabWidth = 1; usesTabs = 0; };
+		89B184622948A1330080E1AF /* bookingpage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bookingpage.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B1837C294219640080E1AF /* iPages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +99,10 @@
 		89B1834F294138260080E1AF /* bookingpage */ = {
 			isa = PBXGroup;
 			children = (
+				89B184622948A1330080E1AF /* bookingpage.entitlements */,
 				89B18350294138260080E1AF /* bookingpageApp.swift */,
-				89B18352294138260080E1AF /* ContentView.swift */,
+				89B18352294138260080E1AF /* bookingview.swift */,
+				89B183812942A4040080E1AF /* infoView.swift */,
 				89B18354294138270080E1AF /* Assets.xcassets */,
 				89B18356294138270080E1AF /* Preview Content */,
 			);
@@ -143,6 +150,9 @@
 			dependencies = (
 			);
 			name = bookingpage;
+			packageProductDependencies = (
+				89B1837B294219640080E1AF /* iPages */,
+			);
 			productName = bookingpage;
 			productReference = 89B1834D294138260080E1AF /* bookingpage.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 89B18344294138260080E1AF;
+			packageReferences = (
+				89B1837A294219640080E1AF /* XCRemoteSwiftPackageReference "iPages" */,
+			);
 			productRefGroup = 89B1834E294138260080E1AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B18353294138260080E1AF /* ContentView.swift in Sources */,
+				89B18353294138260080E1AF /* bookingview.swift in Sources */,
 				89B18351294138260080E1AF /* bookingpageApp.swift in Sources */,
+				89B183822942A4040080E1AF /* infoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bookingpage/bookingpage.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bookingpage/Preview Content\"";
@@ -443,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bookingpage/bookingpage.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bookingpage/Preview Content\"";
@@ -583,6 +599,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		89B1837A294219640080E1AF /* XCRemoteSwiftPackageReference "iPages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/benjaminsage/iPages.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89B1837B294219640080E1AF /* iPages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89B1837A294219640080E1AF /* XCRemoteSwiftPackageReference "iPages" */;
+			productName = iPages;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89B18345294138260080E1AF /* Project object */;
 }

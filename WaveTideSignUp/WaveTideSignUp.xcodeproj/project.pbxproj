@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		871DE1A0293F61EF00F57E70 /* WaveTideSignUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DE19F293F61EF00F57E70 /* WaveTideSignUpApp.swift */; };
+		871DE1A2293F61EF00F57E70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DE1A1293F61EF00F57E70 /* ContentView.swift */; };
+		871DE1A4293F61F000F57E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871DE1A3293F61F000F57E70 /* Assets.xcassets */; };
+		871DE1A7293F61F000F57E70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871DE1A6293F61F000F57E70 /* Preview Assets.xcassets */; };
+		871DE1B1293F61F000F57E70 /* WaveTideSignUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DE1B0293F61F000F57E70 /* WaveTideSignUpTests.swift */; };
+		871DE1BB293F61F000F57E70 /* WaveTideSignUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DE1BA293F61F000F57E70 /* WaveTideSignUpUITests.swift */; };
+		871DE1BD293F61F000F57E70 /* WaveTideSignUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DE1BC293F61F000F57E70 /* WaveTideSignUpUITestsLaunchTests.swift */; };
+		8790F028294E2CD1000FC1CE /* checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790F027294E2CD1000FC1CE /* checkbox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		871DE1AD293F61F000F57E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 871DE194293F61EF00F57E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 871DE19B293F61EF00F57E70;
+			remoteInfo = WaveTideSignUp;
+		};
+		871DE1B7293F61F000F57E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 871DE194293F61EF00F57E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 871DE19B293F61EF00F57E70;
+			remoteInfo = WaveTideSignUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		871DE19C293F61EF00F57E70 /* WaveTideSignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveTideSignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		871DE19F293F61EF00F57E70 /* WaveTideSignUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveTideSignUpApp.swift; sourceTree = "<group>"; };
+		871DE1A1293F61EF00F57E70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		871DE1A3293F61F000F57E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		871DE1A6293F61F000F57E70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		871DE1AC293F61F000F57E70 /* WaveTideSignUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveTideSignUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		871DE1B0293F61F000F57E70 /* WaveTideSignUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveTideSignUpTests.swift; sourceTree = "<group>"; };
+		871DE1B6293F61F000F57E70 /* WaveTideSignUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveTideSignUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		871DE1BA293F61F000F57E70 /* WaveTideSignUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveTideSignUpUITests.swift; sourceTree = "<group>"; };
+		871DE1BC293F61F000F57E70 /* WaveTideSignUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveTideSignUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8790F027294E2CD1000FC1CE /* checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkbox.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		871DE199293F61EF00F57E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871DE1A9293F61F000F57E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871DE1B3293F61F000F57E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		871DE193293F61EF00F57E70 = {
+			isa = PBXGroup;
+			children = (
+				871DE19E293F61EF00F57E70 /* WaveTideSignUp */,
+				871DE1AF293F61F000F57E70 /* WaveTideSignUpTests */,
+				871DE1B9293F61F000F57E70 /* WaveTideSignUpUITests */,
+				871DE19D293F61EF00F57E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		871DE19D293F61EF00F57E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				871DE19C293F61EF00F57E70 /* WaveTideSignUp.app */,
+				871DE1AC293F61F000F57E70 /* WaveTideSignUpTests.xctest */,
+				871DE1B6293F61F000F57E70 /* WaveTideSignUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		871DE19E293F61EF00F57E70 /* WaveTideSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				871DE19F293F61EF00F57E70 /* WaveTideSignUpApp.swift */,
+				871DE1A1293F61EF00F57E70 /* ContentView.swift */,
+				871DE1A3293F61F000F57E70 /* Assets.xcassets */,
+				871DE1A5293F61F000F57E70 /* Preview Content */,
+				8790F027294E2CD1000FC1CE /* checkbox.swift */,
+			);
+			path = WaveTideSignUp;
+			sourceTree = "<group>";
+		};
+		871DE1A5293F61F000F57E70 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				871DE1A6293F61F000F57E70 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		871DE1AF293F61F000F57E70 /* WaveTideSignUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				871DE1B0293F61F000F57E70 /* WaveTideSignUpTests.swift */,
+			);
+			path = WaveTideSignUpTests;
+			sourceTree = "<group>";
+		};
+		871DE1B9293F61F000F57E70 /* WaveTideSignUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				871DE1BA293F61F000F57E70 /* WaveTideSignUpUITests.swift */,
+				871DE1BC293F61F000F57E70 /* WaveTideSignUpUITestsLaunchTests.swift */,
+			);
+			path = WaveTideSignUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		871DE19B293F61EF00F57E70 /* WaveTideSignUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871DE1C0293F61F000F57E70 /* Build configuration list for PBXNativeTarget "WaveTideSignUp" */;
+			buildPhases = (
+				871DE198293F61EF00F57E70 /* Sources */,
+				871DE199293F61EF00F57E70 /* Frameworks */,
+				871DE19A293F61EF00F57E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveTideSignUp;
+			productName = WaveTideSignUp;
+			productReference = 871DE19C293F61EF00F57E70 /* WaveTideSignUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		871DE1AB293F61F000F57E70 /* WaveTideSignUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871DE1C3293F61F000F57E70 /* Build configuration list for PBXNativeTarget "WaveTideSignUpTests" */;
+			buildPhases = (
+				871DE1A8293F61F000F57E70 /* Sources */,
+				871DE1A9293F61F000F57E70 /* Frameworks */,
+				871DE1AA293F61F000F57E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				871DE1AE293F61F000F57E70 /* PBXTargetDependency */,
+			);
+			name = WaveTideSignUpTests;
+			productName = WaveTideSignUpTests;
+			productReference = 871DE1AC293F61F000F57E70 /* WaveTideSignUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		871DE1B5293F61F000F57E70 /* WaveTideSignUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871DE1C6293F61F000F57E70 /* Build configuration list for PBXNativeTarget "WaveTideSignUpUITests" */;
+			buildPhases = (
+				871DE1B2293F61F000F57E70 /* Sources */,
+				871DE1B3293F61F000F57E70 /* Frameworks */,
+				871DE1B4293F61F000F57E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				871DE1B8293F61F000F57E70 /* PBXTargetDependency */,
+			);
+			name = WaveTideSignUpUITests;
+			productName = WaveTideSignUpUITests;
+			productReference = 871DE1B6293F61F000F57E70 /* WaveTideSignUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		871DE194293F61EF00F57E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					871DE19B293F61EF00F57E70 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					871DE1AB293F61F000F57E70 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 871DE19B293F61EF00F57E70;
+					};
+					871DE1B5293F61F000F57E70 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 871DE19B293F61EF00F57E70;
+					};
+				};
+			};
+			buildConfigurationList = 871DE197293F61EF00F57E70 /* Build configuration list for PBXProject "WaveTideSignUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 871DE193293F61EF00F57E70;
+			productRefGroup = 871DE19D293F61EF00F57E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				871DE19B293F61EF00F57E70 /* WaveTideSignUp */,
+				871DE1AB293F61F000F57E70 /* WaveTideSignUpTests */,
+				871DE1B5293F61F000F57E70 /* WaveTideSignUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		871DE19A293F61EF00F57E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871DE1A7293F61F000F57E70 /* Preview Assets.xcassets in Resources */,
+				871DE1A4293F61F000F57E70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871DE1AA293F61F000F57E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871DE1B4293F61F000F57E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		871DE198293F61EF00F57E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871DE1A2293F61EF00F57E70 /* ContentView.swift in Sources */,
+				8790F028294E2CD1000FC1CE /* checkbox.swift in Sources */,
+				871DE1A0293F61EF00F57E70 /* WaveTideSignUpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871DE1A8293F61F000F57E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871DE1B1293F61F000F57E70 /* WaveTideSignUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871DE1B2293F61F000F57E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871DE1BB293F61F000F57E70 /* WaveTideSignUpUITests.swift in Sources */,
+				871DE1BD293F61F000F57E70 /* WaveTideSignUpUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		871DE1AE293F61F000F57E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 871DE19B293F61EF00F57E70 /* WaveTideSignUp */;
+			targetProxy = 871DE1AD293F61F000F57E70 /* PBXContainerItemProxy */;
+		};
+		871DE1B8293F61F000F57E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 871DE19B293F61EF00F57E70 /* WaveTideSignUp */;
+			targetProxy = 871DE1B7293F61F000F57E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		871DE1BE293F61F000F57E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		871DE1BF293F61F000F57E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		871DE1C1293F61F000F57E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaveTideSignUp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reema.WaveTideSignUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		871DE1C2293F61F000F57E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaveTideSignUp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reema.WaveTideSignUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		871DE1C4293F61F000F57E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reema.WaveTideSignUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveTideSignUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaveTideSignUp";
+			};
+			name = Debug;
+		};
+		871DE1C5293F61F000F57E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reema.WaveTideSignUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveTideSignUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaveTideSignUp";
+			};
+			name = Release;
+		};
+		871DE1C7293F61F000F57E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reema.WaveTideSignUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaveTideSignUp;
+			};
+			name = Debug;
+		};
+		871DE1C8293F61F000F57E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reema.WaveTideSignUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaveTideSignUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		871DE197293F61EF00F57E70 /* Build configuration list for PBXProject "WaveTideSignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871DE1BE293F61F000F57E70 /* Debug */,
+				871DE1BF293F61F000F57E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871DE1C0293F61F000F57E70 /* Build configuration list for PBXNativeTarget "WaveTideSignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871DE1C1293F61F000F57E70 /* Debug */,
+				871DE1C2293F61F000F57E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871DE1C3293F61F000F57E70 /* Build configuration list for PBXNativeTarget "WaveTideSignUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871DE1C4293F61F000F57E70 /* Debug */,
+				871DE1C5293F61F000F57E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871DE1C6293F61F000F57E70 /* Build configuration list for PBXNativeTarget "WaveTideSignUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871DE1C7293F61F000F57E70 /* Debug */,
+				871DE1C8293F61F000F57E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 871DE194293F61EF00F57E70 /* Project object */;
+}

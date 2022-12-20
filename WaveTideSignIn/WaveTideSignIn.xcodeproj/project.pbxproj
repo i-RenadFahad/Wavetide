@@ -14,6 +14,9 @@
 		871DE17B293F5C8D00F57E70 /* WaveTideSignInTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DE17A293F5C8D00F57E70 /* WaveTideSignInTests.swift */; };
 		871DE185293F5C8D00F57E70 /* WaveTideSignInUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DE184293F5C8D00F57E70 /* WaveTideSignInUITests.swift */; };
 		871DE187293F5C8D00F57E70 /* WaveTideSignInUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DE186293F5C8D00F57E70 /* WaveTideSignInUITestsLaunchTests.swift */; };
+		87DCF295295240F00017811C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DCF294295240F00017811C /* ListView.swift */; };
+		87DCF297295242F40017811C /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DCF296295242F40017811C /* SignIn.swift */; };
+		87DCF2992952448E0017811C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DCF2982952448E0017811C /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		871DE184293F5C8D00F57E70 /* WaveTideSignInUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveTideSignInUITests.swift; sourceTree = "<group>"; };
 		871DE186293F5C8D00F57E70 /* WaveTideSignInUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveTideSignInUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		871DE2752946551300F57E70 /* WaveTideSignIn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WaveTideSignIn.entitlements; sourceTree = "<group>"; };
+		87DCF294295240F00017811C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		87DCF296295242F40017811C /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		87DCF2982952448E0017811C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				871DE16B293F5C8C00F57E70 /* ContentView.swift */,
 				871DE16D293F5C8C00F57E70 /* Assets.xcassets */,
 				871DE16F293F5C8C00F57E70 /* Preview Content */,
+				87DCF294295240F00017811C /* ListView.swift */,
+				87DCF296295242F40017811C /* SignIn.swift */,
+				87DCF2982952448E0017811C /* File.swift */,
 			);
 			path = WaveTideSignIn;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DCF2992952448E0017811C /* File.swift in Sources */,
 				871DE16C293F5C8C00F57E70 /* ContentView.swift in Sources */,
 				871DE16A293F5C8C00F57E70 /* WaveTideSignInApp.swift in Sources */,
+				87DCF295295240F00017811C /* ListView.swift in Sources */,
+				87DCF297295242F40017811C /* SignIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.reema.WaveTideSignIn;
+				PRODUCT_BUNDLE_IDENTIFIER = Wave.Wave1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -463,7 +475,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.reema.WaveTideSignIn;
+				PRODUCT_BUNDLE_IDENTIFIER = Wave.Wave1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

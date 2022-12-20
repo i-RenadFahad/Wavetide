@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CloudKit
 
 import _AuthenticationServices_SwiftUI
 
@@ -13,8 +14,16 @@ import _AuthenticationServices_SwiftUI
 
 
 struct ContentView: View {
-    @State private var username = "Username"
+    
+    @State private var name = ""
+    @State private var password = ""
     @State var text = ""
+    @StateObject private var vm: ListView
+    
+    init(vm: ListView){
+        _vm = StateObject(wrappedValue: vm)
+    }
+    
     var body: some View {
         ZStack{
             Color.white.ignoresSafeArea()
@@ -44,7 +53,7 @@ struct ContentView: View {
                     Text("")
                     HStack {
                         Image(systemName: "person.fill")
-                        TextField("Username", text: $username)
+                        TextField("Username", text: $name)
                     }
                         .frame(height: 55)
                     
@@ -61,7 +70,7 @@ struct ContentView: View {
                     Text("")
                     HStack {
                         Image(systemName: "lock.fill")
-                        SecureField("Password", text: .constant("Password"))
+                        SecureField("Password", text: $password)
                     }
                         .frame(height: 55)
                             .textFieldStyle(PlainTextFieldStyle())
@@ -80,6 +89,11 @@ struct ContentView: View {
                     
                     
                     Button("Log In"){
+                        vm.existingAccount(name: name, password: password)
+
+                        self.name = ""
+                        self.password = ""
+                       
                         
                     }
                     .foregroundColor(.white)
@@ -123,10 +137,12 @@ struct ContentView: View {
             }
         }
     }
+
+
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            ContentView(vm: ListView(container: CKContainer.default()))
         }
     }
 
